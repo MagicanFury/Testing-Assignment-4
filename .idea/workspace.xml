@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71f0b0ca-b58b-4703-870a-9a59058bcfd7" name="Changes" comment="Updated GreeterTest">
+    <list default="true" id="71f0b0ca-b58b-4703-870a-9a59058bcfd7" name="Changes" comment="Created default Greeter.name for empty constructor: &quot;Anonymous&quot;">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/maven.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/maven.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Greeter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Greeter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GreeterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GreeterTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,16 +34,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "configurable.group.appearance"
   }
-}</component>
-  <component name="RunManager" selected="JUnit.All in Testing-Assignment-4">
+}]]></component>
+  <component name="RunManager" selected="JUnit.GreeterTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="Testing-Assignment-4" />
@@ -54,7 +58,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in Testing-Assignment-4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All in Testing-Assignment-4" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="Testing-Assignment-4" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
@@ -62,9 +66,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GreeterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Testing-Assignment-4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GreeterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in Testing-Assignment-4" />
+        <item itemvalue="JUnit.GreeterTest" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -99,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1724082245804</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Created default Greeter.name for empty constructor: &quot;Anonymous&quot;">
+      <created>1724082338584</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1724082338584</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -117,11 +137,13 @@
     <MESSAGE value="Changed maven source and target to 17" />
     <MESSAGE value="Added name &amp; sayIntroduction() to Greeter class" />
     <MESSAGE value="Updated GreeterTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated GreeterTest" />
+    <MESSAGE value="Created default Greeter.name for empty constructor: &quot;Anonymous&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created default Greeter.name for empty constructor: &quot;Anonymous&quot;" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Testing_Assignment_4$Main.ic" NAME="Main Coverage Results" MODIFIED="1724080746547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.example.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/Testing_Assignment_4$GreeterTest.ic" NAME="GreeterTest Coverage Results" MODIFIED="1724088095992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
