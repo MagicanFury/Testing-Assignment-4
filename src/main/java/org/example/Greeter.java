@@ -5,7 +5,7 @@ public class Greeter {
     private final String name;
 
     public Greeter() {
-        name = null;
+        name = "Anonymous";
     }
 
     public Greeter(String name) {

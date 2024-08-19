@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71f0b0ca-b58b-4703-870a-9a59058bcfd7" name="Changes" comment="Added name &amp; sayIntroduction() to Greeter class">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="71f0b0ca-b58b-4703-870a-9a59058bcfd7" name="Changes" comment="Updated GreeterTest">
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Greeter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Greeter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GreeterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GreeterTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +85,21 @@
       <option name="project" value="LOCAL" />
       <updated>1724080442251</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added name &amp; sayIntroduction() to Greeter class">
+      <created>1724082221030</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1724082221030</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Updated GreeterTest">
+      <created>1724082245804</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1724082245804</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -104,7 +116,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Changed maven source and target to 17" />
     <MESSAGE value="Added name &amp; sayIntroduction() to Greeter class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added name &amp; sayIntroduction() to Greeter class" />
+    <MESSAGE value="Updated GreeterTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated GreeterTest" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Testing_Assignment_4$Main.ic" NAME="Main Coverage Results" MODIFIED="1724080746547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
