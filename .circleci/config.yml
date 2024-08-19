@@ -2,24 +2,10 @@
 # Stacks detected: cicd:github-actions:.github/workflows,deps:java:.
 version: 2.1
 orbs:
-  codecov: codecov/codecov@3
+  codecov: codecov/codecov@4.0.1
 
-jobs:
-  build:
-    docker:
-      - image: cimg/openjdk:17.0
-    steps:
-      - checkout
-      - run:
-          name: Install dependencies
-          command: mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
-      - run:
-          name: Run tests and collect coverage
-          command: mvn -B test
-      - codecov/upload
-
-workflow:
-  version: 2.1
-  build-test:
+workflows:
+  upload-to-codecov:
     jobs:
-      - build
+      - checkout
+      - codecov/upload
