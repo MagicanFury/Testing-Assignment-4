@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71f0b0ca-b58b-4703-870a-9a59058bcfd7" name="Changes" comment="Created default Greeter.name for empty constructor: &quot;Anonymous&quot;">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/maven.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/maven.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Greeter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Greeter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GreeterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GreeterTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,9 +138,9 @@
     <option name="LAST_COMMIT_MESSAGE" value="Created default Greeter.name for empty constructor: &quot;Anonymous&quot;" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Testing_Assignment_4$Main.ic" NAME="Main Coverage Results" MODIFIED="1724080746547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/Testing_Assignment_4$Main.ic" NAME="Main Coverage Results" MODIFIED="1724088229163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.example.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/Testing_Assignment_4$GreeterTest.ic" NAME="GreeterTest Coverage Results" MODIFIED="1724088095992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Testing_Assignment_4$GreeterTest.ic" NAME="GreeterTest Coverage Results" MODIFIED="1724088236363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
