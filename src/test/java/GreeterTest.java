@@ -19,4 +19,8 @@ public class GreeterTest {
         assertThat(greeterAnonymous.sayIntroduction(), containsString("Hello, my name is"));
         assertThat(greeterAnonymous.sayIntroduction(), containsString(greeterAnonymous.getName()));
     }
+    @Test
+    public void greeterName() {
+        assertTrue(greeterAnonymous.getName().equalsIgnoreCase("Anonymous"));
+    }
 }
