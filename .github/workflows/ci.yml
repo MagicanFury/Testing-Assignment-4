@@ -1,9 +1,11 @@
 name: Code Coverage Workflow
+
 on:
   push:
     branches: [ "master" ]
   pull_request:
     branches: [ "master" ]
+
 jobs:
   run:
     runs-on: ubuntu-latest
